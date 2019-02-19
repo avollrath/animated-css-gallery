@@ -1,0 +1,188 @@
+
+
+* {
+
+margin:0;
+padding:0;
+box-sizing: border-box;
+background-color: #000000;
+
+
+}
+
+img {
+
+max-width: 100%;
+
+}
+
+
+h1 {
+
+text-transform: uppercase;
+font-family: Helvetica, sans-serif;
+text-align: center;
+margin-top: 2vh;
+color: orange;
+
+
+}
+
+
+
+.grid-container {
+
+
+display: grid;
+margin: 3vh 12vw;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-gap: 1vh;
+
+
+}
+
+
+.grid-element {
+
+    animation: fadein 1s ease-out normal backwards;
+    filter: brightness(50%);
+    
+
+}
+
+
+
+.grid-element:hover {
+
+transition: 300ms;
+filter: brightness(100%);
+z-index: 2;
+  position: relative;
+  
+  transform: translate(0, -0.2rem) scale(1.1);
+
+}
+
+
+.grid-element:active{
+
+    transform: translate(0, -0.2rem) scale(2);
+}
+
+
+.box1 {
+
+    animation-delay: 0ms;
+}
+
+.box2 {
+
+    animation-delay: 250ms;
+}
+
+
+.box3 {
+
+    animation-delay: 450ms;
+}
+
+
+.box4 {
+
+    animation-delay: 600ms;
+}
+
+
+.box5 {
+
+    animation-delay: 800ms;
+}
+
+
+.box6 {
+
+    animation-delay: 900ms;
+}
+
+.box7 {
+
+    animation-delay: 250ms;
+}
+
+
+.box8 {
+
+    animation-delay: 450ms;
+}
+
+
+.box9 {
+
+    animation-delay: 600ms;
+}
+
+
+.box10 {
+
+    animation-delay: 800ms;
+}
+
+
+.box11 {
+
+    animation-delay: 900ms;
+}
+
+
+.box12 {
+
+    animation-delay: 1200ms;
+}
+
+
+.box13 {
+
+    animation-delay: 450ms;
+}
+
+
+.box14 {
+
+    animation-delay: 600ms;
+}
+
+
+.box15 {
+
+    animation-delay: 800ms;
+}
+
+.box16 {
+
+    animation-delay: 900ms;
+}
+
+.box17 {
+
+    animation-delay: 1200ms;
+}
+
+.box18 {
+
+    animation-delay: 1500ms;
+}
+
+
+
+
+@keyframes fadein {
+    0% {
+      transform: scale(0);
+    }
+    70% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
