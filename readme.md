@@ -1,6 +1,5 @@
-# Portfolio
-
-This is my first personal portfolio created with HTML5 and CSS3.
+# Animated CSS image gallery
+This is a prototype of a CSS image gallery with motion according to Googles marterial design documentation.
 
 # Demo
 
